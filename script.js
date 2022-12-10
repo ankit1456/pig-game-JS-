@@ -24,7 +24,7 @@ function init() {
   playing = true;
   currentScore = 0;
   activePlayer = 0;
-  winningScore = 20;
+  winningScore = 100;
 
   score0.textContent = 0;
   score1.textContent = 0;
