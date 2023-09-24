@@ -19,6 +19,7 @@ const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
 
+const WINNING_SCORE = 100;
 let isPlaying, currentScore, activePlayer, scores;
 
 const init = function () {
@@ -61,7 +62,7 @@ const switchPlayer = () => {
   player1El.classList.toggle('player--active');
 };
 
-const WINNING_SCORE = 20;
+
 
 //SECTION: roll dice
 
